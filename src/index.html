@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Hoa Project</title>
+  </head>
+
+  <body>
+    <div class="popup">
+      <h1>This is description</h1>
+      <!-- https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948 -->
+      <model-viewer
+        id="model-viewer"
+        src="/Model/navigating_the_dark.glb"
+        ios-src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.usdz?v=1569545377878"
+        poster="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717"
+        alt="A 3D model of an astronaut"
+        shadow-intensity="1"
+        camera-controls
+        auto-rotate
+        style="width: 90%; height: 100%"
+      >
+      </model-viewer>
+    </div>
+
+    <canvas class="webgl"></canvas>
+  </body>
+</html>
